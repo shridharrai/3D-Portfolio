@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { styles } from "../styles";
 import { Link } from "react-router-dom";
 import { close, logo, menu } from "../assets";
-import { navLinks } from "../constants";
+import { navLinks, navigationPaths } from "../constants";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -14,7 +14,7 @@ const Navbar = () => {
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
-          to="/"
+          to={navigationPaths.home}
           className="flex items-center gap-2"
           onClick={() => {
             setActive("");

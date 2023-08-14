@@ -25,24 +25,31 @@ import {
   threejs,
 } from "../assets";
 
+const navigationPaths = {
+  home: "/",
+  about: "about",
+  work: "work",
+  contact: "contact",
+};
+
 export const navLinks = [
   {
-    id: "about",
+    id: navigationPaths.about,
     title: "About",
   },
   {
-    id: "work",
+    id: navigationPaths.work,
     title: "Work",
   },
   {
-    id: "contact",
+    id: navigationPaths.contact,
     title: "Contact",
   },
 ];
 
 const services = [
   {
-    title: "Web Developer",
+    title: "React Developer",
     icon: web,
   },
   {
@@ -50,11 +57,11 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "NodeJs Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Javascript Developer",
     icon: creator,
   },
 ];
@@ -262,4 +269,20 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const aboutMe = {
+  intro: `I'm a skilled software developer with experience in TypeScript and
+  JavaScript, and expertise in frameworks like React.Js, React-naitve,
+  Node.js etc. I'm a quick learner and collaborate closely with clients to
+  create efficient, scalable, and user-friendly solutions that solve
+  real-world problems. Let's work together to bring your ideas to life!`,
+};
+
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  navigationPaths,
+  aboutMe,
+};
