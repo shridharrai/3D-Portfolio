@@ -8,13 +8,15 @@ import {
   html,
   css,
   reactjs,
+  nextJs,
   redux,
   tailwind,
+  angular,
   nodejs,
   mongodb,
+  java,
+  mysql,
   git,
-  figma,
-  docker,
   nickelfox,
   newgen,
   skillrisers,
@@ -22,7 +24,6 @@ import {
   carrent,
   jobit,
   tripguide,
-  threejs,
 } from "../assets";
 
 const navigationPaths = {
@@ -88,12 +89,20 @@ const technologies = [
     icon: reactjs,
   },
   {
+    name: "Next JS",
+    icon: nextJs,
+  },
+  {
     name: "Redux Toolkit",
     icon: redux,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
+  },
+  {
+    name: "Angular",
+    icon: angular,
   },
   {
     name: "Node JS",
@@ -104,20 +113,16 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Java",
+    icon: java,
   },
   {
-    name: "git",
+    name: "MySQL",
+    icon: mysql,
+  },
+  {
+    name: "Git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
