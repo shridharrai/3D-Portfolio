@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import demo from "./demo.png";
 
 import css from "./tech/css.png";
 import git from "./tech/git.png";
@@ -26,9 +27,12 @@ import newgen from "./company/newgen.png";
 import skillrisers from "./company/skillrisers.png";
 import proximus from "./company/proximus.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import aptihealthWeb from "./aptihealthWeb.png";
+import aptihealthApp from "./aptihealthApp.png";
+import zealWeb from "./zealWeb.png";
+import zealApp from "./zealApp.png";
+import rollWeb from "./rollWeb.png";
+import rollApp from "./rollApp.png";
 
 export {
   logo,
@@ -37,6 +41,7 @@ export {
   mobile,
   web,
   github,
+  demo,
   menu,
   close,
   css,
@@ -57,7 +62,10 @@ export {
   newgen,
   skillrisers,
   proximus,
-  carrent,
-  jobit,
-  tripguide,
+  aptihealthWeb,
+  aptihealthApp,
+  zealWeb,
+  zealApp,
+  rollWeb,
+  rollApp,
 };
