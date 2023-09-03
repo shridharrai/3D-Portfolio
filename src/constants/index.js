@@ -21,9 +21,12 @@ import {
   newgen,
   skillrisers,
   proximus,
-  carrent,
-  jobit,
-  tripguide,
+  aptihealthWeb,
+  aptihealthApp,
+  zealWeb,
+  zealApp,
+  rollWeb,
+  rollApp,
 } from "../assets";
 
 const navigationPaths = {
@@ -214,67 +217,132 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Aptihealth Web",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Revolutionizing mental healthcare in New York State with a user-friendly platform for personalized therapy and progress tracking. Provides the digital gateway to comprehensive behavioral healthcare.",
     tags: [
       {
-        name: "react",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "redux",
         color: "green-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: aptihealthWeb,
+    hosted_link: "https://www.aptihealth.com/",
+  },
+  {
+    name: "Aptihealth App",
+    description:
+      "Access top-notch mental healthcare anytime, anywhere in New York State with our innovative app. Track your progress, schedule appointments, and connect with expert therapists for personalized care.",
+    tags: [
+      {
+        name: "react-native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "sendbird",
+        color: "green-text-gradient",
+      },
+      {
+        name: "twilio",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: aptihealthApp,
+    hosted_link: "https://apps.apple.com/us/app/aptihealth/id1477170874",
+  },
+  {
+    name: "Zeal Web",
+    description:
+      "The Zeal website elevates the experience of enjoying activities with trusted friends, fostering connections and making every interaction exciting.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: zealWeb,
+    hosted_link: "https://getzeal.co/",
+  },
+  {
+    name: "Zeal App",
+    description:
+      "Discover a world of activities with friends through Zeal, an engaging platform. Create events, post updates, chat, and enjoy in-person activities hassle-free. Boost your social life with Zeal!",
+    tags: [
+      {
+        name: "react-native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "sendgrid",
+        color: "green-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: zealApp,
+    hosted_link:
+      "https://apps.apple.com/us/app/zeal-activities-with-friends/id6446917140",
+  },
+  {
+    name: "Roll Web",
+    description:
+      "The Roll website is the gateway to the future of decentralized communities and digital assets. It allows users to seamlessly earn, redeem, send, and trade social tokens.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
       },
       {
         name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "formik",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: rollWeb,
+    hosted_link: "https://app.tryroll.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Roll App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Join the future of decentralized communities and digital assets with Roll. Earn, redeem, send, and trade social tokens on this innovative platform. Experience transparent transactions and captivating UI design.",
     tags: [
       {
-        name: "nextjs",
+        name: "react-native-web",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "storybook",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: rollApp,
+    hosted_link:
+      "https://play.google.com/store/apps/details?id=com.roll&hl=en_GB",
   },
 ];
 
