@@ -5,6 +5,7 @@ import { slideIn } from "../utils/motion";
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import emailjs from "@emailjs/browser";
+import { publicUrls } from "../constants";
 
 const Contact = () => {
   const formRef = useRef();
@@ -60,8 +61,27 @@ const Contact = () => {
     <div className="xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden">
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
+        className="relative flex-[0.75] bg-black-100 p-8 rounded-2xl"
       >
+        <div className="flex items-center justify-end space-x-4 absolute top-8 right-4">
+          {Object.keys(publicUrls.socialProfiles).map((socialProfile) => {
+            const profile = publicUrls.socialProfiles[socialProfile];
+            return (
+              <div
+                key={`social_${profile.title}`}
+                onClick={() => window.open(profile.link, "_blank")}
+                className="green-pink-gradient lg:w-10 lg:h-10 h-8 w-8 rounded-full flex justify-center items-center cursor-pointer hover:scale-110"
+              >
+                <img
+                  src={profile.icon}
+                  alt={`social_${profile.title}`}
+                  className="w-4/6 h-4/6 object-contain"
+                />
+              </div>
+            );
+          })}
+        </div>
+
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 

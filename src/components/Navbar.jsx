@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { styles } from "../styles";
 import { Link } from "react-router-dom";
 import { close, logo, menu } from "../assets";
-import { navLinks, navigationPaths } from "../constants";
+import { navLinks, navigationPaths, publicUrls } from "../constants";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -40,6 +40,18 @@ const Navbar = () => {
               <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
+
+          <li
+            className={`text-secondary text-[18px] font-medium cursor-pointer hover:text-white`}
+          >
+            <a
+              href={publicUrls.resume}
+              download="Shridhar_Rai_Resume.pdf"
+              target="_blank"
+            >
+              Resume
+            </a>
+          </li>
         </ul>
 
         <div className="sm:hidden flex flex-1 justify-end items-center">
@@ -70,6 +82,18 @@ const Navbar = () => {
                   <a href={`#${link.id}`}>{link.title}</a>
                 </li>
               ))}
+
+              <li
+                className={`text-secondary text-[18px] font-medium cursor-pointer hover:text-white`}
+              >
+                <a
+                  href={publicUrls.resume}
+                  download="Shridhar_Rai_Resume.pdf"
+                  target="_blank"
+                >
+                  Resume
+                </a>
+              </li>
             </ul>
           </div>
         </div>
