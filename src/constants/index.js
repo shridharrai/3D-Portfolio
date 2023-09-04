@@ -27,6 +27,8 @@ import {
   zealApp,
   rollWeb,
   rollApp,
+  linkedIn,
+  github,
 } from "../assets";
 
 const navigationPaths = {
@@ -354,6 +356,23 @@ const aboutMe = {
   real-world problems. Let's work together to bring your ideas to life!`,
 };
 
+const publicUrls = {
+  resume:
+    "https://drive.google.com/file/d/1nhYRTDYfNa0INNYMUP2-Fy5QfxhtlbLO/view?usp=sharing",
+  socialProfiles: {
+    linkedin: {
+      title: "linkedin",
+      link: "https://www.linkedin.com/in/shridharrai/",
+      icon: linkedIn,
+    },
+    github: {
+      title: "github",
+      link: "https://github.com/shridharrai",
+      icon: github,
+    },
+  },
+};
+
 export {
   services,
   technologies,
@@ -362,4 +381,5 @@ export {
   projects,
   navigationPaths,
   aboutMe,
+  publicUrls,
 };
