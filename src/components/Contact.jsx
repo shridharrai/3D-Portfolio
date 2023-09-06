@@ -5,7 +5,7 @@ import { slideIn } from "../utils/motion";
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import emailjs from "@emailjs/browser";
-import { publicUrls } from "../constants";
+import { personalInfo, publicUrls } from "../constants";
 
 const Contact = () => {
   const formRef = useRef();
@@ -31,9 +31,9 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "Shridhar Rai",
+          to_name: personalInfo.fullName,
           from_email: form.email,
-          to_email: "raishridhar619@gmail.com",
+          to_email: personalInfo.email,
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY

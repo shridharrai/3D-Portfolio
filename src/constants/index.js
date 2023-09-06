@@ -190,33 +190,6 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
-
 const projects = [
   {
     name: "Aptihealth Web",
@@ -348,17 +321,25 @@ const projects = [
   },
 ];
 
-const aboutMe = {
-  intro: `I'm a skilled software developer with experience in TypeScript and
+const personalInfo = {
+  name: "Shridhar",
+  fullName: "Shridhar Rai",
+  email: "raishridhar619@gmail.com",
+  role: "Software Developer",
+  about: `I'm a skilled software developer with experience in TypeScript and
   JavaScript, and expertise in frameworks like React.Js, React-naitve,
   Node.js etc. I'm a quick learner and collaborate closely with clients to
   create efficient, scalable, and user-friendly solutions that solve
   real-world problems. Let's work together to bring your ideas to life!`,
+  projectsIntro: `Following projects showcases my skills and experience through
+  real-world examples of my work. Each project is briefly described with
+  live demos. It reflects my ability to solve complex problems, work
+  with different technologies, and manage projects effectively.`,
 };
 
 const publicUrls = {
   resume:
-    "https://drive.google.com/file/d/1nhYRTDYfNa0INNYMUP2-Fy5QfxhtlbLO/view?usp=sharing",
+    "https://drive.google.com/file/d/1vmiPiCLaCuqM0uuDcXQlAd8pY8yBDEOU/view?usp=sharing",
   socialProfiles: {
     linkedin: {
       title: "linkedin",
@@ -377,9 +358,8 @@ export {
   services,
   technologies,
   experiences,
-  testimonials,
   projects,
   navigationPaths,
-  aboutMe,
+  personalInfo,
   publicUrls,
 };

@@ -2,7 +2,12 @@ import React, { useState } from "react";
 import { styles } from "../styles";
 import { Link } from "react-router-dom";
 import { close, logo, menu } from "../assets";
-import { navLinks, navigationPaths, publicUrls } from "../constants";
+import {
+  navLinks,
+  navigationPaths,
+  personalInfo,
+  publicUrls,
+} from "../constants";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -23,8 +28,8 @@ const Navbar = () => {
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            Shridhar &nbsp;
-            <span className="sm:block hidden">| Software Developer</span>
+            {personalInfo.name} &nbsp;
+            <span className="sm:block hidden">| {personalInfo.role}</span>
           </p>
         </Link>
 

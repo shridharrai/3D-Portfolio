@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { fadeIn, textVariant } from "../utils/motion";
 import SectionWrapper from "../hoc/SectionWrapper";
 import { styles } from "../styles";
-import { projects } from "../constants";
+import { personalInfo, projects } from "../constants";
 import { Tilt } from "react-tilt";
 import { demo } from "../assets";
 
@@ -78,10 +78,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Following projects showcases my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          live demos. It reflects my ability to solve complex problems, work
-          with different technologies, and manage projects effectively.
+          {personalInfo.projectsIntro}
         </motion.p>
       </div>
 
