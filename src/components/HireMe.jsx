@@ -1,6 +1,4 @@
 import React from "react";
-import { hireMe } from "../assets";
-import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { personalInfo } from "../constants";
 

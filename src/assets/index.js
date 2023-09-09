@@ -35,8 +35,6 @@ import zealApp from "./zealApp.png";
 import rollWeb from "./rollWeb.png";
 import rollApp from "./rollApp.png";
 
-import hireMe from "./hireMe.svg";
-
 export {
   logo,
   backend,
@@ -72,5 +70,4 @@ export {
   zealApp,
   rollWeb,
   rollApp,
-  hireMe,
 };
