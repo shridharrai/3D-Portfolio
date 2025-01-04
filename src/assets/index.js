@@ -23,6 +23,7 @@ import angular from "./tech/angular.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
+import crmnext from "./company/crmnext.png";
 import nickelfox from "./company/nickelfox.png";
 import newgen from "./company/newgen.png";
 import skillrisers from "./company/skillrisers.png";
@@ -60,6 +61,7 @@ export {
   redux,
   tailwind,
   typescript,
+  crmnext,
   nickelfox,
   newgen,
   skillrisers,
