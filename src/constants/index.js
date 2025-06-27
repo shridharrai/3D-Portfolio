@@ -17,6 +17,7 @@ import {
   java,
   mysql,
   git,
+  monster,
   crmnext,
   nickelfox,
   newgen,
@@ -60,16 +61,16 @@ const services = [
     icon: web,
   },
   {
+    title: "NextJs Developer",
+    icon: creator,
+  },
+  {
     title: "React Native Developer",
     icon: mobile,
   },
   {
     title: "NodeJs Developer",
     icon: backend,
-  },
-  {
-    title: "Javascript Developer",
-    icon: creator,
   },
 ];
 
@@ -134,12 +135,26 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Software Engineer II",
+    company_name: "Monster + CareerBuilder",
+    company_website: "https://www.linkedin.com/company/monster/about/",
+    icon: monster,
+    iconBg: "#E6DEDD",
+    date: "Feb 2025 - Present",
+    points: [
+      "Enhanced the employer job portal with job posting, applicant tracking, multi-user access, and subscription model.",
+      "Integrated AI-Agents for job posting, applicant insights, job-candidate matching reducing recruiter effort by 80%.",
+      "Worked on AI Interview Agent to schedule automated interviews, targeting a 50% reduction in recruiter efforts.",
+      "Worked across AWS (Lambda, SQS, SNS, S3, KDS, DynamoDB, Elasticsearch) and monitoring tools like Splunk.",
+    ],
+  },
+  {
     title: "Software Engineer",
     company_name: "Crmnext",
     company_website: "https://www.businessnext.com/crm",
     icon: crmnext,
     iconBg: "#E6DEDD",
-    date: "Nov 2023 - Present",
+    date: "Nov 2023 - Dec 2024",
     points: [
       "Developed Flow and Layout Designers for HDFC, PNB, IOB, and Utkarsh Bank.",
       "Boosted team efficiency by 50% by implementing monorepo architecture and reusable Design-System.",
@@ -340,9 +355,10 @@ const personalInfo = {
   name: "Shridhar",
   fullName: "Shridhar Rai",
   email: "raishridhar619@gmail.com",
-  role: "Software Developer",
+  mobile: "9319751819",
+  role: "Senior Software Developer",
   about: `I'm a skilled software developer with experience in TypeScript and
-  JavaScript, and expertise in frameworks like React.Js, React-naitve,
+  JavaScript, and expertise in frameworks like React.Js, Next.Js, React-naitve,
   Node.js etc. I'm a quick learner and collaborate closely with clients to
   create efficient, scalable, and user-friendly solutions that solve
   real-world problems. Let's work together to bring your ideas to life!`,
@@ -354,7 +370,7 @@ const personalInfo = {
 
 const publicUrls = {
   resume:
-    "https://drive.google.com/file/d/1vmiPiCLaCuqM0uuDcXQlAd8pY8yBDEOU/view?usp=sharing",
+    "https://drive.google.com/file/d/1cbDow8j2FWFH71fGGYyypBN5ObvFSK0G/view?usp=sharing",
   socialProfiles: {
     linkedin: {
       title: "linkedin",

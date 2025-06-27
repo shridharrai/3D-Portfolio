@@ -104,6 +104,9 @@ const Contact = () => {
 
           <p className={styles.sectionSubText}>Get in touch</p>
           <h3 className={styles.sectionHeadText}>Contact.</h3>
+          <p className={`${styles.sectionSubText} lowercase`}>
+            {personalInfo.email}
+          </p>
 
           <form
             ref={formRef}
